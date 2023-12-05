@@ -5,7 +5,7 @@ const ejs = require('ejs');
 const index = fs.readFileSync('./index.ejs','utf8');
 
 var server = http.createServer(getFromClient);
-server.listen(3000);
+server.listen(4000);
 console.log('Server start!');
 
 function getFromClient(req,res){
